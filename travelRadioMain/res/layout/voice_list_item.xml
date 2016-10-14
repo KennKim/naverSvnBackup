@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/record_list_item_title"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1face"
+            style="@style/imgUserFace" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1user_name"
+                style="@style/TextUserName" />
+
+            <TextView
+                android:id="@+id/textView2date"
+                style="@style/TextDate" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextViewBlank"
+            android:layout_gravity="center_vertical" />
+        
+        <Button
+            android:id="@+id/button1del"
+            style="@style/ButtonVoiceBox"
+            android:text="@string/voice_delete" />
+        
+
+        <Button
+            android:id="@+id/button2saved"
+            style="@style/ButtonVoiceBox"
+            android:text="@string/voice_saved" />
+        
+        <Button
+            android:id="@+id/button3reply"
+            style="@style/ButtonVoiceBox"
+            android:text="@string/voice_reply" />
+        
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/cassette" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#33000000" >
+
+            <Button
+                android:id="@+id/button1play"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_margin="20dp"
+                android:focusable="false"
+                android:text="Play" />
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

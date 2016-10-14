@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="actionbar_color">#33333333</drawable>
+    <drawable name="dim_image">#99303030</drawable>
+
+</resources>

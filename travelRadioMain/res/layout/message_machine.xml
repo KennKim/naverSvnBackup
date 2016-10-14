@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1message"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="#e5eaf3"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/hint_message"
+        android:padding="10dp"
+        android:textColor="@color/text_content2" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1send"
+        style="@style/ButtonBlackBasic"
+        android:background="@drawable/button_bar"
+        android:text="@string/send" />
+
+</LinearLayout>

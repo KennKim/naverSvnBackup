@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_color">#12903456</color>
+    <color name="text_content">#ebebeb</color>
+    <color name="text_content2">#5a5065</color>
+    <color name="button_over">#a3e8ff</color>
+    <color name="heart_num">#00fff0</color>
+    <color name="review_num">#00fff0</color>
+    <color name="user_name">#d6ecf9</color>
+    <color name="record_item_date">#00fff0</color>
+    <color name="record_item_place">#ffffff</color>
+</resources>

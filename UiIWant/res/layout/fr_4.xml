@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frag_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingTop="50dp" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/test_background"
+            android:src="@drawable/search_icon" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow11314331"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/background_gray2" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow11314332131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/background_gray2" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow113147331"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/background_gray2" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background"
+                    android:src="@drawable/icon_item_store" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/test_background" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

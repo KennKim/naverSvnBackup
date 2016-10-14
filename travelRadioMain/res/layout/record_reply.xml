@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+    
+    
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+            android:id="@+id/textView1none"
+            style="@style/TextNone"/>
+    
+<!--     <ListView -->
+<!--         android:id="@+id/listView1" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_margin="10dp" > -->
+
+<!--     </ListView> -->
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        app:ptrMode="pullUpFromBottom" >
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    
+    
+    
+    
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom" >
+
+        <EditText
+            android:id="@+id/editText1reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/reply_edittext"
+            android:paddingLeft="10dp"
+            android:ems="10"
+            android:hint="@string/reply_hint"
+            android:singleLine="true"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button1send"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_selector_reply"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</FrameLayout>

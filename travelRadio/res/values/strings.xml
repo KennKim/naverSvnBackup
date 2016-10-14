@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">travelRadio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="record_place">장소</string>
+    <string name="record_cook">음식</string>
+    <string name="record_enjoy">엔조이</string>
+    <string name="record_stay">숙박</string>
+    <string name="record_guitar">기타</string>
+    <string name="record_heart_sort">하트순</string>
+    <string name="record_review_sort">리뷰순</string>
+    <string name="record_search">검색</string>
+    <string name="record_search_hint">검색어를 입력하세요</string>
+    <string name="menu_radio">무전</string>
+
+</resources>

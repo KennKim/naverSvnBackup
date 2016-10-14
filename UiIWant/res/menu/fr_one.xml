@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.uiiwant.MainActivity" >
+
+    <item
+        android:id="@+id/userPlus"
+        android:icon="@drawable/icon_user_plus"
+        android:orderInCategory="101"
+        android:title="M1"
+        app:showAsAction="ifRoom">
+    </item>
+    
+    <item
+        android:id="@+id/etcMenu"
+        android:icon="@drawable/icon_etc"
+        android:orderInCategory="201"
+        android:title="M2"
+        app:showAsAction="ifRoom">
+    </item>
+
+</menu>

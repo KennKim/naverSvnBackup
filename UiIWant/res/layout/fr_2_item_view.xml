@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frag_background_white"
+    android:orientation="horizontal" >
+
+    <com.pkmmte.circularimageview.CircularImageView
+        android:id="@+id/imageView1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        android:background="@drawable/ic_launcher"
+        android:clickable="false"
+        app:border_color="#FFFFFFFF"
+        app:border_width="4dp"
+        app:selector="true"
+        app:selector_color="#44ffffff"
+        app:selector_stroke_color="#FFFFFFFF"
+        app:selector_stroke_width="4dp"
+        app:shadow="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/TitleFont" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Sub1Font" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/Sub2Font"
+            android:padding="3dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_title">#ff333333</color>
+    <color name="font_sub1">#ff8f8f8f</color>
+    <color name="font_sub2">#ffd5d5d5</color>
+    <color name="font_hint">#ff8f8f8f</color>
+    <color name="font_list_title">#ff00de8d</color>
+
+    <color name="frag_background_white">#ffffffff</color>
+    <color name="frag_background">#fff5f5f5</color>
+    
+    <color name="background_gray">#fff2f1f6</color>
+    <color name="background_gray2">#ff8f8f8f</color>
+    <color name="background_tab_pressed">#88000000</color>
+    <color name="tab_divide">#00feb61a</color>
+    <color name="tab_underline">#33000000</color>
+    <color name="tab_indicate">#ff523637</color>
+    
+    
+    <color name="base_yellow">#ffffeb00</color>
+    <color name="base_brown">#ff4b2a0b</color>
+    
+    
+</resources>

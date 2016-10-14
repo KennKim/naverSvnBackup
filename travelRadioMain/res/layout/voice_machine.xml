@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <ImageView
+        android:id="@+id/imageView1voice_machine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/voice_machine_hole" />
+
+<!--     <SeekBar -->
+<!--         android:id="@+id/seekBar1voice_machine" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_margin="20dp" /> -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.46"
+        android:text="녹음버튼을 누르면 녹음이 진행됩니다. 녹음 후 정지버튼을 꼭 눌러주세요."
+        android:textColor="@color/text_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button1stop"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vm_sel_cancel" />
+
+<!--         <Button -->
+<!--             android:id="@+id/button1play" -->
+<!--             style="?android:attr/buttonStyleSmall" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:background="@drawable/vm_sel_play" /> -->
+
+        <Button
+            android:id="@+id/button2recording"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vm_sel_record" />
+
+<!--         <Button -->
+<!--             android:id="@+id/button3voice_send" -->
+<!--             style="?android:attr/buttonStyleSmall" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:background="@drawable/vm_sel_send" /> -->
+    </LinearLayout>
+
+</LinearLayout>

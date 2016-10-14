@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3camera"
+            style="@style/ButtonRecordUploadUp"
+            android:background="@drawable/btn_selector_upload_camera"
+            android:text="@string/record_content_camera" />
+
+        <Button
+            android:id="@+id/button3voice"
+            style="@style/ButtonRecordUploadUp"
+            android:background="@drawable/btn_selector_upload_voice"
+            android:text="@string/record_content_voice" />
+
+        <Button
+            android:id="@+id/button3link"
+            style="@style/ButtonRecordUploadUp"
+            android:background="@drawable/btn_selector_upload_link"
+            android:text="@string/record_content_link" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#30ffffff"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1content"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/hint_content"
+            android:minHeight="50dp"
+            android:textSize="12sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView_up1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:src="@drawable/upload_photo_plus" />
+
+            <ImageView
+                android:id="@+id/imageView_up2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:src="@drawable/upload_photo_plus" />
+
+            <ImageView
+                android:id="@+id/imageView_up3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:src="@drawable/upload_photo_plus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/link_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="LINK"
+                android:textColor="@color/text_content" />
+
+            <EditText
+                android:id="@+id/editText2link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="링크주소를 적어주세요."
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/voice_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView1voice_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cassette_circle" />
+
+                <TextView
+                    android:id="@+id/textView2voice_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="음성첨부"
+                    android:textColor="@color/text_content"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView2location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView_locationsetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/actionbar_location" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button6record_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_selector_login"
+            android:text="@string/record_send"
+            android:textColor="@color/text_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox1place"
+                style="@style/RecordCheckBoxUpload"
+                android:background="@drawable/sel_cb_upload_place" />
+
+            <CheckBox
+                android:id="@+id/checkBox3cook"
+                style="@style/RecordCheckBoxUpload"
+                android:background="@drawable/sel_cb_upload_food" />
+
+            <CheckBox
+                android:id="@+id/checkBox4enjoy"
+                style="@style/RecordCheckBoxUpload"
+                android:background="@drawable/sel_cb_upload_enjoy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox2stay"
+                style="@style/RecordCheckBoxUpload"
+                android:background="@drawable/sel_cb_upload_stay" />
+
+            <CheckBox
+                android:id="@+id/checkBox5etc"
+                style="@style/RecordCheckBoxUpload"
+                android:background="@drawable/sel_cb_upload_etc" />
+
+            <CheckBox
+                android:id="@+id/checkBox6sos"
+                style="@style/RecordCheckBoxUpload"
+                android:background="@drawable/sel_cb_upload_sos" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
